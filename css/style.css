@@ -66,8 +66,9 @@ header nav{
 #showcase{
   min-height: 400px;
   background: url("../img/a.jpeg") no-repeat 0 -400px;
-  margin:20px 10px 20px 70px;
-  border-radius: 25px;
+  /* margin:20px 10px 20px 70px; */
+  /* border-radius: 25px; */
+  margin-bottom: 20px;
 }
 
 /* Boxes */
@@ -92,6 +93,7 @@ header nav{
   padding: 1em;
   border: 3px solid #2d3c49;
   border-radius: 25px;
+  padding-bottom: 20px;
 }
 #boxes .box img {
   position: relative;
@@ -101,6 +103,7 @@ header nav{
   text-align: center;
 }
 #boxes .box a{
+  margin: 0 0 20px 50px;;
   text-decoration: none;
   color: #02b3e4;
   font-weight: 100;
@@ -123,4 +126,15 @@ footer {
   color: white;
   background-color: #7d97ad;
   text-align: center;
+}
+/* MEDIA QUERIES */
+@media(max-width:768px){
+  #boxes .wrapper{
+    display: block;
+    text-align: center;
+    width:100%;
+  }
+  .wrapper > div {
+    margin-top: 20px;
+  }
 }
